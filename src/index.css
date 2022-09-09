@@ -2,3 +2,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .grouptask{
+        @apply pl-[16px] pr-[12px] py-[16px] rounded-[4px] w-fit border
+    }
+
+    .grouptask--primary{
+        @apply border-primary-main bg-primary-surface
+    }
+    .grouptask--secondary{
+        @apply border-secondary-main bg-secondary-surface
+    }
+    .grouptask--danger{
+        @apply border-danger-main bg-danger-surface
+    }
+    .grouptask--success{
+        @apply border-success-main bg-success-surface
+    }
+
+    .tasklabel{
+        @apply w-fit px-[8px] py-[2px] text-[12px] font-[400] rounded-[4px] mb-[10px]
+    }
+
+    .tasklabel--primary{
+        @apply border border-primary-border text-primary-main
+    }
+    .tasklabel--secondary{
+        @apply border border-secondary-border text-secondary-main
+    }
+    .tasklabel--danger{
+        @apply border border-danger-border text-danger-main
+    }
+    .tasklabel--success{
+        @apply border border-success-border text-success-main
+    }
+}

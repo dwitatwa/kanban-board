@@ -1,4 +1,4 @@
-import GroupTask from "./components/GroupTask";
+import GroupTask from "./components/group-task/GroupTask";
 import Header from "./components/Header";
 
 function App() {
