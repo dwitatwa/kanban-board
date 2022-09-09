@@ -1,7 +1,17 @@
+import GroupTask from "./components/GroupTask";
+import Header from "./components/Header";
+
 function App() {
   return (
-    <div className="bg-slate-400 p-5 font-nunito font-bold">
-      Product Roadmap
+    <div className="font-nunito">
+      <Header />
+      <hr />
+      <div className="p-[24px] flex gap-[16px]">
+        <GroupTask color="primary" />
+        <GroupTask color="secondary" />
+        <GroupTask color="danger" />
+        <GroupTask color="success" />
+      </div>
     </div>
   );
 }

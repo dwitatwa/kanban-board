@@ -15,7 +15,7 @@ module.exports = {
         secondary: {
           surface: "#FFFCF5",
           border: "#FEEABC",
-          pressed: "#FA9810",
+          main: "#FA9810",
         },
         danger: {
           main: "#E11428",
