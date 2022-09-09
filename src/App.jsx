@@ -1,5 +1,6 @@
 import GroupTask from "./components/group-task/GroupTask";
 import Header from "./components/Header";
+import DeleteModal from "./components/modal/DeleteModal";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <GroupTask color="danger" />
         <GroupTask color="success" />
       </div>
+      <DeleteModal />
     </div>
   );
 }
