@@ -1,10 +1,9 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <div className="bg-slate-400">Configuring Tailwind CSS</div>;
+  return (
+    <div className="bg-slate-400 p-5 font-nunito font-bold">
+      Product Roadmap
+    </div>
+  );
 }
 
 export default App;
