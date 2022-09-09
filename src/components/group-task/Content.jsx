@@ -1,3 +1,4 @@
+import SettingModal from "../modal/setting-modal/SettingModal";
 import ProgressBar from "./ProgressBar";
 
 function Content({ progress }) {
@@ -7,11 +8,9 @@ function Content({ progress }) {
         Re-designed the zero-g doggie bags. No more spills!
       </div>
       <hr className="border-dashed border-neutral-40 my-[8px]" />
-      <div className="flex items-center gap-[26px]">
+      <div className="flex items-center gap-[26px] ">
         <ProgressBar progress={progress} />
-        <button>
-          <img src="/src/assets/Setting.svg" alt="" />
-        </button>
+        <SettingModal />
       </div>
     </div>
   );
