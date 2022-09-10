@@ -1,10 +1,7 @@
 import ActionModal from "../modal/action-modal/ActionModal";
 import ProgressBar from "./ProgressBar";
-import { GroupTaskContext } from "./GroupTask";
-import { useContext } from "react";
 
 function Content({ progress, id }) {
-  const position = useContext(GroupTaskContext);
   return (
     <div className="p-[16px] bg-neutral-20 border border-neutral-40 rounded-[4px] w-[298px] mb-[8px]">
       <div className="font-[700] text-neutral-90 text-[14px]">

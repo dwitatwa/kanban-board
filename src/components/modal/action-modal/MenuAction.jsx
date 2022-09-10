@@ -10,9 +10,8 @@ function MenuAction({ setOpenActionModal }) {
   const position = useContext(GroupTaskContext);
 
   const outsideClick = (e) => {
-    if (e.target !== modalRef.current && e.target.id !== "settingButton") {
+    if (e.target !== modalRef.current && e.target.id !== "actionButton") {
       setOpenActionModal(false);
-      console.log("render");
     }
   };
 
