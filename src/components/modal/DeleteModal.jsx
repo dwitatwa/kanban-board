@@ -1,5 +1,5 @@
 import { useState, useContext } from "react";
-import { SettingContext } from "./setting-modal/SettingModal";
+import { SettingContext } from "./action-modal/ActionModal";
 
 function DeleteModal() {
   const [isShow, setIsShow] = useState(false);

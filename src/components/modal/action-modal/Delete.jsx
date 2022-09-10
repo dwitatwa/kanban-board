@@ -1,5 +1,5 @@
 import { useState, useContext } from "react";
-import { SettingContext } from "./SettingModal";
+import { SettingContext } from "./ActionModal";
 
 function Delete() {
   const [isHover, setIsHover] = useState(false);

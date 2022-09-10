@@ -5,8 +5,8 @@ const setColor = (color) => {
   if (color === "success") return "tasklabel tasklabel--success";
 };
 
-function GroupLabel({ color }) {
-  return <div className={setColor(color)}>Group Task 1</div>;
+function GroupLabel({ color, title }) {
+  return <div className={setColor(color)}>{title}</div>;
 }
 
 export default GroupLabel;
